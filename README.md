@@ -2,14 +2,14 @@
 
 A Docker container for [Fastlane/Boarding](https://github.com/fastlane/boarding/)
 
-DockerHub: https://hub.docker.com/r/emcniece/docker-boarding/
+DockerHub: https://hub.docker.com/r/justkant/docker-boarding/
 
 ## Running
 
 Pull the docker container, then run with your desired environment variables:
 
 ```sh
-docker pull emcniece/docker-boarding
+docker pull justkant/docker-boarding
 
 docker run -d \
   -e ITC_USER=myUser@domain.com \
@@ -17,7 +17,7 @@ docker run -d \
   -e ITC_APP_ID=targetAppId \
   -e ITC_APP_TESTER_GROUPS="My Testers Group" \
   -p 3000:3000 \
-  emcniece/docker-boarding
+  justkant/docker-boarding
 ```
 
 ## Building

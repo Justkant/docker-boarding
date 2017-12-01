@@ -1,6 +1,6 @@
 # Creates a base image for emcniece/docker-boarding
 
-NAMESPACE := emcniece
+NAMESPACE := justkant
 PROJECT := docker-boarding
 PLATFORM := linux
 ARCH := amd64
