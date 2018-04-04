@@ -2,13 +2,10 @@
 
 NAMESPACE := justkant
 PROJECT := docker-boarding
-PLATFORM := linux
-ARCH := amd64
 DOCKER_IMAGE := $(NAMESPACE)/$(PROJECT)
 RUN_NAME := $(NAMESPACE)-$(PROJECT)
 
 VERSION := $(shell cat VERSION)
-GITSHA := $(shell git rev-parse --short HEAD)
 
 all: help
 

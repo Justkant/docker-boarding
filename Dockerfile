@@ -1,5 +1,5 @@
-FROM ruby:2.5.0
-MAINTAINER Quentin Jaccarino <quentin@tracktl.com>
+FROM ruby:2.5.1
+LABEL maintainer="Quentin Jaccarino <quentin@tracktl.com>"
 
 RUN apt-get update -qq && apt-get install -y build-essential \
     # for postgres
